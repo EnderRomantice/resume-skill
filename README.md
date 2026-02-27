@@ -1,4 +1,4 @@
-# Resume Formatter Skill
+# Resume Skill
 
 [![npm version](https://img.shields.io/npm/v/resume-skill?style=flat&colorA=080f12&colorB=1fa669)](https://www.npmjs.com/package/resume-skill)
 [![npm downloads](https://img.shields.io/npm/dm/resume-skill?style=flat&colorA=080f12&colorB=1fa669)](https://www.npmjs.com/package/resume-skill)
