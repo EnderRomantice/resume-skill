@@ -13,8 +13,9 @@ This Skill is designed to help users generate comfortable, soft, and highly read
 2. **Soft & Comfortable Aesthetics**: Avoid harsh colors, pure blacks (`#000000`), and overcrowded layouts. Utilize curated color palettes and ample whitespace.
 3. **Profession-Specific Adaptability**: Dynamically adjust fonts, color schemes, spacing, layouts, and interactive micro-animations based on the target role.
 4. **Intelligent Tag Extraction**: Automatically analyze "Project Experience" sections to extract key technologies, tools, or methodologies and display them as visually distinct tags below the project title.
-5. **Dynamic & Interactive Effects**: Rather than writing pure CSS keyframes from scratch, prefer integrating high-quality animation libraries cataloged in `references/animations.md` (e.g., `react-bits`, `framer-motion`) when appropriate for the tech stack.
-6. **Tech-Stack Agnostic & User-Centric**: Respect the user's chosen technology stack (e.g., React, Vue, HTML/CSS, Tailwind, Next.js). Do NOT force a specific stack unless the user leaves it up to you. Always explicitly ASK for their aesthetic preference before generating the final code.
+5. **Typography Excellence**: Curate font pairings using Google Fonts resources (`references/fonts.md`) to enhance readability and professional aesthetics for each profession.
+6. **Dynamic & Interactive Effects**: Rather than writing pure CSS keyframes from scratch, prefer integrating high-quality animation libraries cataloged in `references/animations.md` (e.g., `react-bits`, `framer-motion`) when appropriate for the tech stack.
+7. **Tech-Stack Agnostic & User-Centric**: Respect the user's chosen technology stack (e.g., React, Vue, HTML/CSS, Tailwind, Next.js). Do NOT force a specific stack unless the user leaves it up to you. Always explicitly ASK for their aesthetic preference before generating the final code.
 
 ## Pre-defined Aesthetic Styles & Design Reference
 
@@ -81,7 +82,7 @@ Otherwise, explicitly ask the user if they prefer the default or want to choose 
 
 When a user requests a resume design or formatting advice, follow these STRICT steps:
 
-0. **Study References**: If you haven't already, thoroughly review `references/style.md` and `references/animations.md`.
+0. **Study References**: If you haven't already, thoroughly review `references/style.md`, `references/animations.md`, and `references/fonts.md`.
 1. **Clarify Preferences & Defaults (CRITICAL)**: Before writing any code, you MUST:
    - Ask what **technology stack** they are using (e.g., Plain HTML/CSS, React + Tailwind, Vue + SCSS, Next.js).
    - Tell them you default to the highly requested **Hyper-Minimalist (Vercel-like)** style to ensure professional premium quality. Ask if they accept this or prefer a different listed style.
@@ -91,6 +92,8 @@ When a user requests a resume design or formatting advice, follow these STRICT s
    - Parse the user's "Project Experience" or "Work Experience" content.
    - Automatically extract key tools, frameworks, languages, or methodologies (e.g., "React", "Docker", "Agile", "SEO").
    - Format these as distinct UI tags placed immediately underneath the project title or company name.
-4. **Apply the Styling Guide & User Preference**: Provide specific recommendations for fonts, Hex color codes, line heights, margins, and animations based on their chosen style and profession.
+4. **Apply the Styling Guide & User Preference**: 
+   - **Fonts**: Consult `references/fonts.md` and Google Fonts (https://fonts.google.com/) to select profession-appropriate font pairings. Provide exact font names and Google Fonts import URLs.
+   - Provide specific recommendations for Hex color codes, line heights, margins, and animations based on their chosen style and profession.
 5. **Generate Code/Templates**: Output a complete template (Markdown, HTML, React components, Vue components, etc.) incorporating the typography, colors, layout, tags, and animations, **strictly adhering to their requested tech stack**.
 6. **Accessibility Check**: Ensure text-to-background contrast ratio meets or exceeds WCAG AA standards.

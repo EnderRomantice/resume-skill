@@ -25,6 +25,18 @@ This document serves as the **source of truth** for all aesthetic decisions made
 | **Links / Interactive** | `hover:text-zinc-900 transition-colors` | `transition: color 0.2s ease` | Avoid generic blue links unless requested |
 | **Animations** | `animate-fade-in-up` (custom keyframe needed) | `opacity: 0; transform: translateY(10px)` | Sequential entry animations |
 
+## Typography Presets (Google Fonts)
+
+When the user requests a specific typographic feel, or when you are implementing a specific preset, ALWAYS source fonts from Google Fonts. For Next.js projects, utilize `next/font/google`. For Vite/Vue or raw HTML, provide the `<link href="...fonts.googleapis...">` tag.
+
+| Font Type | Vibe / Aesthetic | Recommended Google Fonts | Tailwind Class |
+| :--- | :--- | :--- | :--- |
+| **Sans-serif** | Modern, Minimalist, Tech (Default) | `Inter`, `Geist`, `Roboto Flex`, `Outfit` | `font-sans` |
+| **Serif** | Elegant, Editorial, Sophisticated | `Playfair Display`, `Lora`, `Cormorant Garamond` | `font-serif` |
+| **Monospace** | Cyberpunk, Geek, Terminal | `JetBrains Mono`, `Fira Code`, `Space Mono` | `font-mono` |
+
+*Agent Note*: To quickly elevate a design, try mixing fonts (e.g., a striking *Italic Serif* like `Playfair Display` for the main Name/Header `h1`, combined with a clean Sans-serif `Inter` for the body data). 
+
 ---
 
 ## Alternative Pre-defined Styles

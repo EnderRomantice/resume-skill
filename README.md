@@ -6,6 +6,10 @@ This is an AI Agent Skill designed to help users generate comfortable, soft, and
 - `SKILL.md`: The core formatting guidelines, rules, and AI instructions.
 - `README.md`: Project overview and introduction.
 - `LICENSE`: The license file.
+- `references/`: Additional design resources
+  - `style.md`: Design styles, color palettes, and CSS implementations
+  - `animations.md`: Animation libraries and micro-interaction references
+  - `fonts.md`: **Font recommendations and [Google Fonts](https://fonts.google.com/) integration guide**
 
 ## Installation
 
