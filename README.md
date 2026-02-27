@@ -45,6 +45,12 @@ Run `npm install` and the skill will be automatically symlinked for your agent.
 ## How to Use
 Provide the contents of `SKILL.md` as context to any Large Language Model (LLM) or AI Agent. This equips the AI with the knowledge to offer professional typography, color palettes, spacing advice, and CSS-based micro-animations for Tech, Creative, or Corporate resumes, along with intelligent content extraction.
 
+## Live Examples
+Check out the live examples at **[resume-skill-example.vercel.app](http://resume-skill-example.vercel.app)** to see the skill in action:
+- **Sci-Fi Style** - Futuristic design with cyberpunk aesthetics
+- **Elegant Style** - Refined and sophisticated visual presentation
+- **Minimal Style** - Clean, minimal and modern layout
+
 ## Key Features
 - **Profession-Specific Aesthetics**: 
   - **Tech**: Emphasizes clean monospace elements, crisp sans-serifs, and slick hover effects.
