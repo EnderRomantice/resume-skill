@@ -1,5 +1,8 @@
 # Resume Formatter Skill
 
+[![npm version](https://img.shields.io/npm/v/resume-skill?style=flat&colorA=080f12&colorB=1fa669)](https://www.npmjs.com/package/resume-skill)
+[![npm downloads](https://img.shields.io/npm/dm/resume-skill?style=flat&colorA=080f12&colorB=1fa669)](https://www.npmjs.com/package/resume-skill)
+
 This is an AI Agent Skill designed to help users generate comfortable, soft, and highly readable personal resume layouts and interactive stylings customized for different professions.
 
 ## Directory Structure
@@ -20,12 +23,10 @@ Copy or move the entire `resume_skill` folder into your agent tool's skills dire
 - **Cursor**: Place in your project's `.cursor/skills/` directory
 - **Other agents**: Place in the agent's designated skills directory
 
-### Using [skills-npm](https://github.com/antfu/skills-npm) (Coming Soon)
-
-Once this skill is published as an npm package:
+### Using [skills-npm](https://github.com/antfu/skills-npm)
 
 ```bash
-npm i -D resume_skill
+npm i -D resume-skill
 ```
 
 Then add a `prepare` script to your `package.json`:

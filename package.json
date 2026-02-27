@@ -1,0 +1,30 @@
+{
+  "name": "resume-skill",
+  "version": "1.0.0",
+  "description": "AI Agent Skill for generating comfortable, soft, and highly readable resume layouts and interactive stylings",
+  "keywords": [
+    "skill",
+    "agent",
+    "ai",
+    "resume",
+    "formatter",
+    "cv",
+    "layout",
+    "design"
+  ],
+  "homepage": "https://github.com/EnderRomantice/resume-skill#readme",
+  "bugs": {
+    "url": "https://github.com/EnderRomantice/resume-skill/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EnderRomantice/resume-skill.git"
+  },
+  "license": "MIT",
+  "author": "EnderRomantice",
+  "files": [
+    "skills",
+    "README.md",
+    "LICENSE"
+  ]
+}
