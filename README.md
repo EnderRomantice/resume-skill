@@ -7,6 +7,36 @@ This is an AI Agent Skill designed to help users generate comfortable, soft, and
 - `README.md`: Project overview and introduction.
 - `LICENSE`: The license file.
 
+## Installation
+
+### Manual Installation
+Copy or move the entire `resume_skill` folder into your agent tool's skills directory:
+
+- **Kimi Code CLI**: Copy to the agent's skills folder (path varies by installation)
+- **Cursor**: Place in your project's `.cursor/skills/` directory
+- **Other agents**: Place in the agent's designated skills directory
+
+### Using [skills-npm](https://github.com/antfu/skills-npm) (Coming Soon)
+
+Once this skill is published as an npm package:
+
+```bash
+npm i -D resume_skill
+```
+
+Then add a `prepare` script to your `package.json`:
+
+```json
+{
+  "private": true,
+  "scripts": {
+    "prepare": "skills-npm"
+  }
+}
+```
+
+Run `npm install` and the skill will be automatically symlinked for your agent.
+
 ## How to Use
 Provide the contents of `SKILL.md` as context to any Large Language Model (LLM) or AI Agent. This equips the AI with the knowledge to offer professional typography, color palettes, spacing advice, and CSS-based micro-animations for Tech, Creative, or Corporate resumes, along with intelligent content extraction.
 
